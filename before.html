@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Add a title for the main tab-->
+	<title>Where's the CSS</title>
+	<!-- Add our stylesheet -->
+
+	<!-- Add a few google fonts-->
+
+	<link href='http://fonts.googleapis.com/css?family=Asset' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Quantico:400,700italic' rel='stylesheet' type='text/css'>
+	<!-- Include Reset -->
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+	<link rel="stylesheet" href="before.css">
+
+</head>
+<body>
+	<!-- Our overall wrapper for the page -->
+	<div id="gallery-wrapper">
+		<!-- A header tag using h1 -->
+		<h1>Here are some cool pictures</h1>
+			<!-- Each image is using a div with class "image." You can target them individually with the second class: the number following -->
+			<div class="image one">
+				<!-- Add another div to indicate whether its a portrait or a landscape image -->
+				<div class="portrait">
+					<!-- Our image tag -->
+					<img src="http://www.artasylum.com/wp-content/uploads/2012/10/BroodWolvie-500x666.jpg">
+				</div>
+				<!-- A div to hold our caption -->
+				<div class="caption">
+					Lego Wolverine
+				</div>
+			</div>			
+
+			<div class="image two">
+				<div class="landscape">
+					<img src="http://img.4plebs.org/boards/tv/image/1401/74/1401741738954.jpg">
+				</div>
+				<div class="caption">
+					Laughing Tom Cruise
+				</div>
+			</div>			
+
+			<div class="image three">
+				<div class="landscape">
+					<img src="https://i.warosu.org/data/g/img/0495/57/1439089002327.png">
+				</div>
+				<div class="caption">
+					Tom Cruise Still Laughing
+				</div>
+			</div>			
+
+			<div class="image four">		
+				<div class="landscape">
+					<img src="https://img.4plebs.org/boards/pol/image/1386/63/1386638186661.jpg">
+				</div>
+				<div class="caption">
+					Giggling Carlton
+				</div>
+			</div>			
+
+			<div class="image five">
+				<div class="landscape">
+					<img src="https://www.pinkjeeptourssedona.com/wp-content/uploads/2014/08/iStock_000022793763Med-500x333.jpg">
+				</div>
+				<div class="caption">
+					Canyon Leap
+				</div>
+			</div>			
+			
+			<div class="image six">
+				<div class="landscape">
+					<img src="data:image/jpeg;base64,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">
+				</div>
+				<div class="caption">
+					Mountains
+				</div>
+			</div>
+
+
+			<div class="image seven">
+				<div class="landscape">
+					<img src="http://newhotelus.com/wp-content/uploads/2012/10/Heaven-lake-500x333.jpg">
+				</div>
+				<div class="caption">
+					Mountains with a Lake
+				</div>				
+			</div>
+
+			<div class="image eight">
+				<div class="landscape">
+					<img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSZofbIhvlBxbZtaKVSxr3UNWhwbFFZkgj2upfBMc8VdvfG5tvLdg">
+				</div>
+				<div class="caption">
+					Lake with a Bench
+				</div>
+			</div>
+
+			<div class="image nine">
+				<div class="landscape">
+					<img src="https://midwestoutdoors.files.wordpress.com/2011/11/1-a-aurora-lk-superior-2-thumb-500x333.jpg?w=630">
+				</div>
+				<div class="caption">
+					Lake with Aurora Borealis
+				</div>
+			</div>
+
+			<div class="image ten">
+				<div class="landscape">
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnaljobCHoPURKzrqqk_DticQ1RiIx87W6RaRQei9jR2tM28u0ow">
+				</div>
+				<div class="caption">
+					Mountain lake with feet in the way
+				</div>
+			</div>
+
+			<div class="extra-stuff">
+				I told you these pictures were awesome!!
+			</div>
+
+			<div class="wide-image">
+				<div class="landscape">
+					<img src="http://static.tvfanatic.com/images/gallery/shameless-season-2-finale-scene_500x333.jpg">
+				</div>
+				<div class="caption">
+					Frank in a Trash Can
+				</div>
+			</div>
+	</div>
+</body>
+</html>

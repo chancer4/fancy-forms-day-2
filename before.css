@@ -1,0 +1,93 @@
+#gallery-wrapper{
+	text-align: center;
+
+
+}
+
+#gallery-wrapper h1{
+	font: 30px 'Asset', serif;
+	color: blue;
+
+}
+
+.image{
+	width: 31%;
+	border-radius: 15px;
+	display: inline-block;
+	float: left;
+	margin: 1%;
+	
+
+
+
+}
+
+.image img{
+	width: 100%;
+	position: relative;
+	
+
+}
+.one{
+	height: 100%;
+	float: left;
+
+}
+.two{
+	
+}
+
+.extra-stuff{
+	background-color: blue;
+	color: white;
+	width: 30%;
+	float: left;
+	border-radius: 15px;
+	display: inline-block;
+	height: 250px;
+	margin: 1%;
+
+}
+
+.caption{
+	background-color: blue;
+	color: white;
+
+}
+
+.wide-image{
+	width: 100%;
+	display: inline-block;
+
+
+}
+
+.wide-image img{
+	width: 97%;
+	float: left;
+	padding: 2.5%
+}
+
+@media (max-width: 1000px) and (min-width: 601px) {
+	.image{
+		width: 31%;	
+	}
+	.extra-stuff{
+		width: 30%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.image {
+		width: 95%;
+	}
+	.extra-stuff{
+		width: 95%;
+	}
+
+}
+
+
+
+
+
